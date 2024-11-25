@@ -1,0 +1,43 @@
+/* Auteur: Charles-Edouard Roseberry */
+
+body {
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.top {
+    font-size: x-large;
+    display: flex;
+}
+
+.bottom {
+    text-align: center;
+}
+
+input {
+    width: 750px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+input:hover {
+    cursor: pointer;
+}
+.play-button:hover {
+    border: solid black 1px;
+    opacity: 95%;
+}
+
+.txt-username {
+    opacity: 35%;
+}
+
+.error-message {
+    color:rgb(130, 47, 47);
+    font-weight: bold;
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Auteur = Charles-Edouard Roseberry-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <title>Jeu de mémoire</title>
+</head>
+
+<body>
+    <div class="top">
+            <img src="img/duck_draw.png" alt="lovely duck">
+            <h1>Ducky Memory</h1>
+    </div>
+
+    <div class="bottom">
+        <form id="play-form" methode="post" action="game.html">
+            <div class="user-name">
+                <label for="txt-username"></label>
+                <input class="txt-username" type="text" name="txtUserName" id="txt-username" placeholder="   Name:">
+            </div>
+
+            <p class="error-message" id="username-error"></p>
+
+            <input class="play-button" type="submit" value="Play!">
+        </form>
+    </div>
+
+</body>
+
+</html>
